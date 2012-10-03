@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK/org.my.scanExample.ScanExample"/>
+	<classpathentry kind="lib" path="/Users/twhipple/Documents/android-scan-demo/app/bin/classes"/>
+	<classpathentry kind="lib" path="/Users/twhipple/Documents/android-scan-demo/app/libs/card.io.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

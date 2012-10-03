@@ -3,3 +3,8 @@ bin/
 gen/
 
 local.properties
+/app/readme.md
+/app/libs/
+/app/changelog.md
+/app/acknowledgements.md
+/app-test/libs/
