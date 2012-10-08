@@ -26,27 +26,6 @@ public class ScanExampleTest extends ActivityInstrumentationTestCase2<MyScanActi
     public void setUp() throws Exception {
     	solo = new Solo(getInstrumentation(), getActivity());
     }
-
-    public void testBack() throws Exception {
-    	solo.assertCurrentActivity("expecting example app", MyScanActivity.class);
-    	
-    	boolean ableToScan = CardIOActivity.canReadCardWithCamera(solo.getCurrentActivity());
-    	
-    	solo.clickOnButton(0);
-    	
-    	if (ableToScan) {
-    		// some devices don't support use of the camera.
-    		
-			solo.assertCurrentActivity("Expected CardIOActivity (scan)", "CardIOActivity");
-    	}
-    	else {
-	    	solo.assertCurrentActivity("Expected DataEntryActivity", "DataEntryActivity");
-    	}
-
-    	solo.goBack();
-    	
-    	solo.assertCurrentActivity("expecting to be back at start", MyScanActivity.class);
-    }
     
     public void testManualEntry() throws Exception {
     	solo.assertCurrentActivity("expecting example app", MyScanActivity.class);
