@@ -36,6 +36,8 @@ public class MyScanActivity extends Activity
 	@Override
 	protected void onResume() {
 		super.onResume();
+		
+		resultTextView.setText("card.io library version: " + CardIOActivity.sdkVersion() + "\nBuilt: " + CardIOActivity.sdkBuildDate());
 
 		if (CardIOActivity.canReadCardWithCamera(this)) {
 			scanButton.setText("Scan a credit card with card.io");
