@@ -31,13 +31,13 @@ public class MyScanActivity extends Activity
 
 		resultTextView = (TextView)findViewById(R.id.resultTextView);
 		scanButton = (Button)findViewById(R.id.scanButton);
+		
+		resultTextView.setText("card.io library version: " + CardIOActivity.sdkVersion() + "\nBuilt: " + CardIOActivity.sdkBuildDate());
 	}
 
 	@Override
 	protected void onResume() {
 		super.onResume();
-		
-		resultTextView.setText("card.io library version: " + CardIOActivity.sdkVersion() + "\nBuilt: " + CardIOActivity.sdkBuildDate());
 
 		if (CardIOActivity.canReadCardWithCamera(this)) {
 			scanButton.setText("Scan a credit card with card.io");
