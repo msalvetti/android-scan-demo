@@ -18,7 +18,7 @@ Example Robotium tests are provided to help you get started with integration tes
 
 1. cd app-test
 2. run setup.sh
-3. run 'ant debug && ant installt test'
+3. run 'ant debug && ant install test'
 
 That's it!!
 
