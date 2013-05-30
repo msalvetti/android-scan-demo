@@ -28,4 +28,6 @@
     <string name="cardioCancelButton">Cancel</string>
 
     <string name="cardioWhoops">Whoops!</string>
+	
+	<string name="cardioManualEntryTitle">Card Details</string>
 </resources>

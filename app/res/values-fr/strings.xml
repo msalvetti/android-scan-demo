@@ -6,8 +6,8 @@
 	They were generated with Google translate and have NOT been reviewed by a human French speaker.
 	-->
 	<string name="cardioScanHintTop">Tenez la carte de crédit ici.</string>
-  <string name="cardioScanHintBottom">Il va scanner automatiquement.</string>
-  <string name="cardioScanKeyboardButton">clavier...</string>
+	<string name="cardioScanHintBottom">Il va scanner automatiquement.</string>
+	<string name="cardioScanKeyboardButton">clavier...</string>
 	
 	<string name="cardioScanErrorLibLoadFail">card.io eu une erreur en accédant au dispositif de caméra.</string>
 	<string name="cardioScanErrorNoDeviceSupport">Ce périphérique ne peut pas utiliser l\'appareil pour lire les numéros de cartes.</string>	
@@ -16,7 +16,7 @@
 	<string name="cardioScanErrorWhoops">Oups! Impossible de lire la carte</string>
 	<string name="cardioScanErrorUnauthorized">"This app is not authorized to use card.io"</string>
 	
-  <string name="cardioEntryCardNumber">numéro de la carte</string>
+	<string name="cardioEntryCardNumber">numéro de la carte</string>
 	<string name="cardioEntryExpiry">expire</string>
 	<string name="cardioEntryCVV">CVV</string>
 	<string name="cardioEntryZip">postal</string>
@@ -27,4 +27,6 @@
 	<string name="cardioCancelButton">annuler</string>
 	
 	<string name="cardioWhoops">Oups!</string>
+	
+	<string name="cardioManualEntryTitle">Détails de la carte</string>
 </resources>
