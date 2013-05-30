@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!--
+	<!--
 	IMPORTANT: these are the default string values. If no other strings are found, these will be used.
 	(In addition to being provided here, they are built in to the card.io SDK.)
-    -->
+	-->
 
-    <string name="cardioScanHintTop">Hold credit card here.</string>
-    <string name="cardioScanHintBottom">It will scan automatically.</string>
-    <string name="cardioScanKeyboardButton">Keyboard...</string>
-    
-    <string name="cardioScanErrorLibLoadFail">card.io had an error accessing the camera device.</string>
-    <string name="cardioScanErrorNoDeviceSupport">This device cannot use the camera to read card numbers.</string>
-    <string name="cardioScanErrorCameraConnectFail">Device camera is unavailable.</string>
-    <string name="cardioScanErrorUnexpectedCameraFail">The device had an unexpected error opening the camera.</string>
-    <string name="cardioScanErrorWhoops">Whoops! Could not read card.</string>
-    <string name="cardioScanErrorUnauthorized">"This app is not authorized to use card.io."</string>
+	<string name="cardioScanHintTop">Hold credit card here.</string>
+	<string name="cardioScanHintBottom">It will scan automatically.</string>
+	<string name="cardioScanKeyboardButton">Keyboard...</string>
+	
+	<string name="cardioScanErrorLibLoadFail">card.io had an error accessing the camera device.</string>
+	<string name="cardioScanErrorNoDeviceSupport">This device cannot use the camera to read card numbers.</string>
+	<string name="cardioScanErrorCameraConnectFail">Device camera is unavailable.</string>
+	<string name="cardioScanErrorUnexpectedCameraFail">The device had an unexpected error opening the camera.</string>
+	<string name="cardioScanErrorWhoops">Whoops! Could not read card.</string>
+	<string name="cardioScanErrorUnauthorized">"This app is not authorized to use card.io."</string>
 
-    <string name="cardioEntryCardNumber">Card Number</string>
-    <string name="cardioEntryExpiry">Expires</string>
-    <string name="cardioEntryCVV">CVV</string>
-    <string name="cardioEntryZip">Zip</string>
-    <string name="cardioEntryZipHint">12345</string>
-    
-    <string name="cardioConfirmButton">Confirm</string>
-    <string name="cardioDoneButton">Done</string>
-    <string name="cardioCancelButton">Cancel</string>
+	<string name="cardioEntryCardNumber">Card Number</string>
+	<string name="cardioEntryExpiry">Expires</string>
+	<string name="cardioEntryCVV">CVV</string>
+	<string name="cardioEntryZip">Zip</string>
+	<string name="cardioEntryZipHint">12345</string>
+	
+	<string name="cardioConfirmButton">Confirm</string>
+	<string name="cardioDoneButton">Done</string>
+	<string name="cardioCancelButton">Cancel</string>
 
-    <string name="cardioWhoops">Whoops!</string>
+	<string name="cardioWhoops">Whoops!</string>
 	
 	<string name="cardioManualEntryTitle">Card Details</string>
 </resources>
